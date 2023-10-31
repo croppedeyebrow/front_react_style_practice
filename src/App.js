@@ -1,10 +1,16 @@
 import "./App.css";
-import StyledComponent from "./StyledComponent";
+import Clock from "./usestate/시각업데이트";
+import UserName from "./usestate/회원정보";
+// import StyledComponent from "./StyledComponent";
 
 function App() {
   return (
     <>
-      <StyledComponent />
+      {/* <StyledComponent /> */}
+      <Clock />
+      <br></br>
+      <br></br>
+      <UserName />
     </>
   );
 }
